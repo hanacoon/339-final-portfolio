@@ -2,4 +2,10 @@ img {
   width: 100%;
 }
 
-/*# sourceMappingURL=case-study.css.map */
+.case-study-header {
+  font-size: 20px;
+  color: #0B78D0;
+  padding-bottom: 0;
+  font-weight: 300;
+}
+
