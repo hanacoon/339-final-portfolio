@@ -103,3 +103,12 @@ a.skip-to-content:focus, a.skip-to-content:active {
   overflow:auto;
   margin: 10px;
 }
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    animation-play-state: paused !important;
+    transition: none !important;
+    scroll-behavior: auto !important; 
+  }
+}

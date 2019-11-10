@@ -123,3 +123,9 @@ a.animate:hover:after {
     display: none;
   }
 }
+
+@media (prefers-reduced-motion: reduce) {
+  a.animate:after {
+    transition: none;
+  }
+}
