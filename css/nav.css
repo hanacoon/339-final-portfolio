@@ -50,9 +50,13 @@ a.animate:after {
   height: 3px;
   left: 50%;
   position: absolute;
-  background: #2196F3;
+  background: #0B78D0;
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
+}
+
+.current {
+  color: #0B78D0 !important;
 }
 
 a.animate:hover:after {
@@ -74,7 +78,7 @@ a.animate:hover:after {
 }
 
 .logo h1:hover {
-  color: #2196F3;
+  color: #0B78D0;
   transition: color 0.1s ease-out;
 }
 
@@ -89,7 +93,7 @@ a.animate:hover:after {
 }
 
 .navbar-toggle:hover {
-  color: #2196F3;
+  color: #0B78D0;
   transition: color 0.1s ease-out;
 }
 
@@ -119,5 +123,3 @@ a.animate:hover:after {
     display: none;
   }
 }
-
-/*# sourceMappingURL=nav.css.map */
